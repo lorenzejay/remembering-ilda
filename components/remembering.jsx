@@ -22,7 +22,7 @@ const Remembering = () => {
         />
         <img
           src="/lola2.jpg"
-          className="w-64 h-64 md:w-72 md:h-72 2xl:w-96 2xl:h-96 object-cover rounded-full object-fit object-right m-3"
+          className="w-64 h-64 md:w-72 md:h-72 2xl:w-96 2xl:h-96 object-cover rounded-full  object-right "
         />
       </div>
     </div>
