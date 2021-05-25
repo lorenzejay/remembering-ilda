@@ -20,7 +20,7 @@ const About = () => {
         </p>
       </div>
       <div>
-        <img src="lola-1.jpg" className=" object-cover" />
+        <img src="lola-1.jpg" className=" object-cover w-full" />
         <p className="text-xl" style={{ color: "#C79288" }}>
           If you have a photo you’d like to share with our family, please email them to
           lorenzejay@gmail.com

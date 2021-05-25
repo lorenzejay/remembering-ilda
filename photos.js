@@ -4,8 +4,8 @@
 export const photos = [
   {
     src: "/ilda1.jpg",
-    width: 4,
-    height: 3,
+    width: 3,
+    height: 4,
   },
   {
     src: "ilda2.jpg",

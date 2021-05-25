@@ -5,6 +5,8 @@ import Remembering from "../components/remembering";
 import Waiting from "../components/waiting";
 import Head from "next/head";
 import PhotoGallery from "../components/photoGallery";
+import { ReactPhotoCollage } from "react-photo-collage";
+import Gallery3 from "../components/Gallery3";
 
 export default function Home() {
   return (
@@ -19,6 +21,8 @@ export default function Home() {
         <About />
         {/* <DidYouKnow /> */}
         <PhotoGallery />
+        {/* <ReactPhotoCollage /> */}
+        {/* <Gallery3 /> */}
       </Layout>
     </>
   );
