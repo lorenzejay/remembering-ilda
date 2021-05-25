@@ -4,6 +4,7 @@ import Layout from "../components/Layout";
 import Remembering from "../components/remembering";
 import Waiting from "../components/waiting";
 import Head from "next/head";
+import PhotoGallery from "../components/photoGallery";
 
 export default function Home() {
   return (
@@ -14,9 +15,10 @@ export default function Home() {
       </Head>
       <Layout>
         <Remembering />
-        <Waiting />
-        {/* <About />
-      <DidYouKnow /> */}
+        {/* <Waiting /> */}
+        <About />
+        {/* <DidYouKnow /> */}
+        <PhotoGallery />
       </Layout>
     </>
   );

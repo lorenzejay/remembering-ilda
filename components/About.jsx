@@ -1,36 +1,22 @@
 const About = () => {
   return (
     <div
-      className="flex flex-row px-5 md:px-7 lg:px-16 xl:px-20 2xl:px-24  py-10"
+      className="flex flex-col lg:flex-row px-5 md:px-7 lg:px-16 xl:px-20 2xl:px-24  py-10"
       style={{ backgroundColor: "#E6E4E8" }}
     >
       <div>
         <h3 className="text-6xl" style={{ color: "#C79288" }}>
           Ilda
         </h3>
+        <p className="w-3/4 my-2 text-black text-2xl font-bold">Come To Me</p>
         <p className="w-3/4 my-2 text-black text-xl">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-          ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-          ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
-          sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
-          est laborum.
+          God saw you getting tired, and a cure was not to be, so He put his arms around you, and
+          whispered "Come to Me."
         </p>
         <p className="w-3/4 my-2 text-black text-xl">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-          ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-          ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
-          sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
-          est laborum.
-        </p>
-        <p className="w-3/4 my-2 text-black text-xl">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-          ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-          ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
-          sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
-          est laborum.
+          With tearful eyes we watched you suffer, and saw you fall away. Although we couldn't bear
+          to lose you, we could not ask you to stay. A golden heart stooped beating, hardworking
+          hands lay to rest. God broke our hearts to prove to us, that He only takes the best.
         </p>
       </div>
       <div>

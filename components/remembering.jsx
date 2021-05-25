@@ -17,12 +17,8 @@ const Remembering = () => {
       </main>
       <div className="flex flex-col lg:flex-row items-center justify-around mt-3">
         <img
-          src="/mahjongtiles.png"
-          className="w-64 h-64 md:w-72 md:h-72 2xl:w-96 2xl:h-96 object-cover m-3"
-        />
-        <img
-          src="/lola2.jpg"
-          className="rounded-ilda-img w-64 h-64 md:w-72 md:h-72 2xl:w-96 2xl:h-96 object-cover  object-right "
+          src="/ilda7.jpg"
+          className="rounded-ilda-img w-64 h-64 md:w-72 md:h-72 2xl:w-96 2xl:h-96 object-cover  object-left-top "
         />
       </div>
     </div>
