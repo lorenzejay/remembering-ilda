@@ -9,7 +9,7 @@ export const photos = [
   },
   {
     src: "ilda2.jpg",
-    width: 4,
+    width: 5,
     height: 3,
   },
   {
