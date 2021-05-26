@@ -44,11 +44,11 @@ export const photos = [
     width: 3,
     height: 2,
   },
-  // {
-  //   src: "ilda-8.jpg",
-  //   width: 4,
-  //   height: 2,
-  // },
+  {
+    src: "ilda-8.jpg",
+    width: 4,
+    height: 4,
+  },
   {
     src: "ilda-9.jpg",
     width: 4,
