@@ -1,7 +1,7 @@
 import Gallery from "react-photo-gallery";
-import { photos } from "../photos";
+import { photos, photoList } from "../photos";
 const PhotoGallery = () => {
-  return <Gallery photos={photos} direction={"column"} />;
+  return <Gallery photos={photoList} direction={"column"} />;
 };
 
 export default PhotoGallery;

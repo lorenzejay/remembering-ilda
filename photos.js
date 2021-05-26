@@ -1,11 +1,18 @@
-// for(let i = 1; i <=9; i++){
-
-// }
+export const photoList = [];
+for (let i = 1; i <= 100; i++) {
+  if (i % 2 === 0) {
+    let imgSrc = { src: `/ilda-${i}.jpg`, width: 4, height: 4 };
+    photoList.push(imgSrc);
+  } else {
+    let imgSrc = { src: `/ilda-${i}.jpg`, width: 4, height: 3 };
+    photoList.push(imgSrc);
+  }
+}
 export const photos = [
   {
     src: "/ilda1.jpg",
-    width: 3,
-    height: 4,
+    width: 4,
+    height: 3,
   },
   {
     src: "ilda2.jpg",
