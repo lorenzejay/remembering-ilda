@@ -18,7 +18,7 @@ const Remembering = () => {
       <div className="flex flex-col lg:flex-row items-center justify-around mt-3">
         <img
           src="/ilda7.jpg"
-          className="rounded-ilda-img w-64 h-64 md:w-72 md:h-72 2xl:w-96 2xl:h-96 object-cover  object-left-top "
+          className="rounded-ilda-img w-64 h-64 md:w-72 md:h-72 2xl:w-80 2xl:h-80 object-cover object-top "
         />
       </div>
     </div>
