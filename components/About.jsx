@@ -36,9 +36,8 @@ const About = () => {
           special time spent with their Lola/Granny.
         </p>
         <p className="w-full 2xl:w-3/4 my-2 text-black text-xl">
-          Iding spent her last years under the love and care of her daughter Nene, grandchildren
-          Julian and Luchie, and great-grandson Lorenze Jay. She was also adored by the family dog,
-          James.
+          Iding spent her last years under the love and care of her family as was also adored by the
+          family dog, James.
         </p>
         <p className="w-full 2xl:w-3/4 my-2 text-black text-xl">
           Iding was known by others to be strong, smart, and independent—well into her old age. She
