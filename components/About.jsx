@@ -4,7 +4,7 @@ const About = () => {
       className="justify-around px-5 md:px-7 lg:px-16 xl:px-20 2xl:px-24  py-10"
       style={{ backgroundColor: "#E6E4E8" }}
     >
-      <div className="flex ">
+      <div className="flex flex-col lg:flex-row">
         <div className="w-1/2  mr-10">
           {/* <h3 className="text-6xl" style={{ color: "#C79288" }}>
           Ilda
