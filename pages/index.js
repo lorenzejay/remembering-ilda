@@ -7,6 +7,7 @@ import Head from "next/head";
 import PhotoGallery from "../components/photoGallery";
 import { ReactPhotoCollage } from "react-photo-collage";
 import Gallery3 from "../components/Gallery3";
+import ViewMore from "../components/ViewMore";
 
 export default function Home() {
   return (
@@ -17,10 +18,11 @@ export default function Home() {
       </Head>
       <Layout>
         <Remembering />
-        {/* <Waiting /> */}
         <About />
         {/* <DidYouKnow /> */}
         <PhotoGallery />
+        <Waiting />
+        {/* <ViewMore /> */}
         {/* <ReactPhotoCollage /> */}
         {/* <Gallery3 /> */}
       </Layout>
