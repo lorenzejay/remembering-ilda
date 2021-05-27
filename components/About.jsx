@@ -1,26 +1,37 @@
 const About = () => {
   return (
     <div
-      className="flex flex-col lg:flex-row justify-around px-5 md:px-7 lg:px-16 xl:px-20 2xl:px-24  py-10"
+      className="justify-around px-5 md:px-7 lg:px-16 xl:px-20 2xl:px-24  py-10"
       style={{ backgroundColor: "#E6E4E8" }}
     >
-      <div className="w-1/2 flex-grow mr-10">
-        {/* <h3 className="text-6xl" style={{ color: "#C79288" }}>
+      <div className="flex ">
+        <div className="w-1/2  mr-10">
+          {/* <h3 className="text-6xl" style={{ color: "#C79288" }}>
           Ilda
         </h3> */}
 
-        <p className="w-full  2xl:w-3/4 my-2 text-black text-xl">
-          Ilda “Iding” Labitoria Ramos was born on November 10, 1921 in the town of Dao, Capiz,
-          Philippines. She was the youngest daughter of Ceriaco Labitoria and Teodora Escalada, and
-          beloved sister of Clementia and Pascual.
-        </p>
-        <p className="w-full  2xl:w-3/4 my-2 text-black text-xl">
-          Upon finishing her own education, Iding began teaching primary school in Dao, where she
-          worked for over 20 years. During the war time, she met and married the love of her life,
-          Leon Ramos, who was also a school teacher. Together, they had three children, Eleanor
-          (“Ely”), Mamerto (“Mert”), and Leonilda (“Nene”). Iding and Leon enjoyed life with one
-          another in Dao until Leon’s death in 1976.
-        </p>
+          <p className="w-full  2xl:w-3/4 my-2 text-black text-xl">
+            Ilda “Iding” Labitoria Ramos was born on November 10, 1921 in the town of Dao, Capiz,
+            Philippines. She was the youngest daughter of Ceriaco Labitoria and Teodora Escalada,
+            and beloved sister of Clementia and Pascual.
+          </p>
+          <p className="w-full  2xl:w-3/4 my-2 text-black text-xl">
+            Upon finishing her own education, Iding began teaching primary school in Dao, where she
+            worked for over 20 years. During the war time, she met and married the love of her life,
+            Leon Ramos, who was also a school teacher. Together, they had three children, Eleanor
+            (“Ely”), Mamerto (“Mert”), and Leonilda (“Nene”). Iding and Leon enjoyed life with one
+            another in Dao until Leon’s death in 1976.
+          </p>
+        </div>
+        <div>
+          <img src="lola-1.jpg" className=" object-cover w-full lg:max-w-lg 2xl:max-w-7xl" />
+          <p className="text-xl" style={{ color: "#C79288" }}>
+            If you have a photo you’d like to share with our family, please email them to
+            lorenzejay@gmail.com
+          </p>
+        </div>
+      </div>
+      <div>
         <p className="w-full  2xl:w-3/4 my-2 text-black text-xl">
           In 1977, Iding immigrated to the United States, joining Mert and Nene and their families
           in Los Angeles, California. Ely would eventually join her there as well. In the U.S.,
@@ -48,13 +59,7 @@ const About = () => {
           life and was beloved by all.
         </p>
       </div>
-      <div>
-        <img src="lola-1.jpg" className=" object-cover w-full lg:max-w-lg 2xl:max-w-7xl" />
-        <p className="text-xl" style={{ color: "#C79288" }}>
-          If you have a photo you’d like to share with our family, please email them to
-          lorenzejay@gmail.com
-        </p>
-      </div>
+      {/* <div></div> */}
     </div>
   );
 };
