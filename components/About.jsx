@@ -5,7 +5,7 @@ const About = () => {
       style={{ backgroundColor: "#E6E4E8" }}
     >
       <div className="flex flex-col justify-around lg:flex-row">
-        <div className="w-full lg:w-1/2  mr-10">
+        <div className="w-full flex-grow  mr-10">
           {/* <h3 className="text-6xl" style={{ color: "#C79288" }}>
           Ilda
         </h3> */}
@@ -23,8 +23,8 @@ const About = () => {
             another in Dao until Leon’s death in 1976.
           </p>
         </div>
-        <div className="lg:w-1/2">
-          <img src="lola-1.jpg" className=" object-cover w-full lg:w-96 " />
+        <div className="lg:w-full">
+          <img src="/ilda-3.jpg" className=" object-cover w-full lg:w-3/4 " />
           <p className="text-base lg:w-3/4" style={{ color: "#C79288" }}>
             If you have a photo you’d like to share with our family, please email them to
             lorenzejay@gmail.com
