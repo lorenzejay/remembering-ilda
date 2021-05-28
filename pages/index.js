@@ -21,7 +21,7 @@ export default function Home() {
         <About />
         {/* <DidYouKnow /> */}
         <PhotoGallery />
-        <Waiting />
+        {/* <Waiting /> */}
         {/* <ViewMore /> */}
         {/* <ReactPhotoCollage /> */}
         {/* <Gallery3 /> */}
