@@ -10,7 +10,7 @@ const About = () => {
           Ilda
         </h3> */}
 
-          <p className=" my-2 text-black text-xl">
+          <p className=" my-3 text-black text-xl">
             Ilda “Iding” Labitoria Ramos was born on November 10, 1921 in the town of Dao, Capiz,
             Philippines. She was the youngest daughter of Ceriaco Labitoria and Teodora Escalada,
             and beloved sister of Clementia and Pascual.
@@ -24,7 +24,7 @@ const About = () => {
           </p>
         </div>
         <div className="">
-          <img src="/lola-1.jpg" className=" object-cover" style={{ maxWidth: "50vw" }} />
+          <img src="/lola-1.jpg" className=" object-cover" style={{ maxWidth: "33vw" }} />
           <p className="text-base lg:w-96" style={{ color: "#C79288" }}>
             If you have a photo you’d like to share with our family, please email them to
             lorenzejay@gmail.com
