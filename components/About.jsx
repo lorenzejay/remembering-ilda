@@ -1,21 +1,21 @@
 const About = () => {
   return (
     <div
-      className="justify-around px-5 md:px-7 lg:px-16 xl:px-20 2xl:px-24  py-10"
+      className=" px-5 md:px-7 lg:px-16 xl:px-20 2xl:px-24  py-10"
       style={{ backgroundColor: "#E6E4E8" }}
     >
       <div className="flex flex-col justify-around lg:flex-row">
-        <div className="w-full flex-grow  mr-10">
+        <div className="w-full mr-10">
           {/* <h3 className="text-6xl" style={{ color: "#C79288" }}>
           Ilda
         </h3> */}
 
-          <p className="w-full  2xl:w-3/4 my-2 text-black text-xl">
+          <p className="w-full  lg:w-3/4 my-2 text-black text-xl">
             Ilda “Iding” Labitoria Ramos was born on November 10, 1921 in the town of Dao, Capiz,
             Philippines. She was the youngest daughter of Ceriaco Labitoria and Teodora Escalada,
             and beloved sister of Clementia and Pascual.
           </p>
-          <p className="w-full  2xl:w-3/4 my-2 text-black text-xl">
+          <p className="w-full  lg:w-3/4 my-2 text-black text-xl">
             Upon finishing her own education, Iding began teaching primary school in Dao, where she
             worked for over 20 years. During the war time, she met and married the love of her life,
             Leon Ramos, who was also a school teacher. Together, they had three children, Eleanor
@@ -24,8 +24,8 @@ const About = () => {
           </p>
         </div>
         <div className="lg:w-full">
-          <img src="/ilda-3.jpg" className=" object-cover w-full lg:w-3/4 " />
-          <p className="text-base lg:w-3/4" style={{ color: "#C79288" }}>
+          <img src="/lola-1.jpg" className=" object-cover w-full lg:w-96 " />
+          <p className="text-base lg:w-96" style={{ color: "#C79288" }}>
             If you have a photo you’d like to share with our family, please email them to
             lorenzejay@gmail.com
           </p>
